@@ -78,12 +78,14 @@
             align-items: center;
             gap: 15px;
             margin-bottom: 20px;
+            flex-wrap: wrap;
         }
 
         .radio-group input[type="radio"] {
             margin: 0;
             position: relative;
             top: -1px;
+            transform: scale(0.9);
         }
 
         .radio-label {
@@ -200,7 +202,17 @@
             .radio-group {
                 flex-direction: column;
                 align-items: center;
+                gap: 10px;
             }
+
+            .radio-group input[type="radio"] {
+                transform: scale(0.8);
+            }
+
+            .radio-label {
+                font-size: 1em;
+            }
+
 
             input,
             select,
